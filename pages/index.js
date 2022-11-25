@@ -9,8 +9,9 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
       </Head>
+      <Image src={testImg} />
+      <img src="/test.png" />
       <div className='test-div'>
-        <Image src={testImg} />
       </div>
     </div>
   )
